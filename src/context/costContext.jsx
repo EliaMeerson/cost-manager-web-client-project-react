@@ -20,7 +20,7 @@ export const CostProvider = ({ children }) => {
     }, [currency, month, year]);
 
     useEffect(() => {
-        openCostsDB("CostManagerReactDB", 1);
+        openCostsDB('CostManagerReactDB', 1);
         refreshReport().catch(console.error);
     }, [refreshReport]);
 
