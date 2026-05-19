@@ -1,6 +1,6 @@
 // src/db/db.js
 
-const DEFAULT_RATES_URL = 'https://eliameerson.github.io/currency-api/rates.json';
+const DEFAULT_RATES_URL = '/rates.json';
 let activeDatabaseName = 'CostManagerReactDB';
 
 // Initialize the database if it does not exist yet.
